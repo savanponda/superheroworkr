@@ -1,0 +1,23 @@
+.container{
+  margin: 0 160px;
+}
+.bg-body{
+    background-color: #F1F2F4 !important;
+}
+
+ .link{
+  text-decoration: none !important;
+  transition:  .4s !important;
+ 
+}
+.link:hover{
+  border-bottom:2px #0A65CC  solid !important;
+  color: #0A65CC !important;
+  
+}
+  
+ 
+  
+  
+ 
+  

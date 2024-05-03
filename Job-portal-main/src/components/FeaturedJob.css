@@ -1,0 +1,150 @@
+.banner5 {
+    margin-top: 200px;
+    height: 1000px;
+    flex-wrap: wrap;
+  }
+  .banner5 .featured-job {
+    position: relative;
+    bottom: 50px;
+    margin: 0 auto 0 auto;
+    max-width: calc(100% - 320px);
+    
+  }
+  .banner5 .popular-category{
+    display: flex;
+    justify-content: space-between;
+  }
+  .banner5 .popular-category h1 {
+    margin-bottom: 50px;
+    font-size: 40px;
+  }
+  .banner5 .popular-category button {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 147px;
+    height: 48px;
+    border: 1px solid #e7f0fa;
+    color: #0a65cc;
+    font-weight: 500;
+  }
+  .banner5 .popular-category button img {
+    width: 24px;
+    height: 24px;
+  }
+  .banner5 .banner-card2{
+    border: none;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    height: 920px;
+  }
+  .banner5 .card-side1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border:#E7F0FA 1px solid;
+    border-radius: 12px;
+    width: 100%;
+    height: 132px;
+    
+  }
+  .banner5 .card-side1 .left{
+    display: flex;
+  }
+  .banner5 .card-side1 .left img{
+    margin-left: 32px;
+  }
+  .banner5 .card-side1 .left .details{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 20px;
+    width: 500px;
+    
+  }
+  
+  .banner5 .card-side1 .left .head{
+    display: flex;
+    gap: 10px;
+    
+  }
+  .banner5 .card-side1 .left .head h1{
+    font-size: 20px;
+    transition: .4s;
+    
+  }
+  .banner5 .card-side1 .left .time{
+    width: 119px;
+    height: 26px;
+    background-color: #E8F1FF;
+    border-radius: 52px;
+    text-align: center;
+    color: #0a65cc;
+  }
+  .banner5 .card-side1 .left .caption{
+    width: 400px;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 6px;
+    color: #636A80;
+  }
+  .banner5 .card-side1 .left .caption .det-icon{
+   font-size: 22px;
+    color: #C5C9D6;
+  }
+  .banner5 .card-side1 .left .caption p{
+    color: #636A80;
+    font-size: 14px;
+  }
+  .banner5 .card-side1 .right{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 228px;
+    height: 48px;
+    
+  }
+  .banner5 .card-side1 .right{
+    margin-right: 32px;
+  }
+  .banner5 .card-side1 .right .bookmark{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    color: #0a65cc;
+    width: 48px;
+    height: 48px;
+    border-radius: 3px;
+    transition: .4s;
+  }
+  .banner5 .card-side1 .right button{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 168px;
+    height: 48px;
+    background-color: #E7F0FA;
+    border-radius: 3px;
+    color: #0a65cc;
+    transition: .4s;
+  }
+  .banner5 .banner-card2 .card-side1:hover{
+    background-color: white;
+    border: #0a65cc solid 1px;
+  }
+  .banner5 .banner-card2 .card-side1:hover h1{
+    color: #0a65cc;
+  }
+  .banner5 .banner-card2 .card-side1:hover button{
+    background-color: #0a65cc;
+    color: white;
+  }
+  .banner5 .banner-card2 .card-side1:hover .bookmark{
+    background-color: #E7F0FA;
+    
+  }

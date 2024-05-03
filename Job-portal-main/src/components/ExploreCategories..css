@@ -1,0 +1,38 @@
+.banner3 {
+    margin-top: 100px;
+  }
+  .banner3 h2 {
+    margin: 0 auto 0 auto;
+    max-width: calc(100% - 380px);
+    font-size: 40px;
+  }
+  .banner3 .d-flex {
+    margin: 0 auto 0 auto;
+    max-width: calc(100% - 320px);
+    gap: 20px;
+    height: 90px !important;
+  }
+  .explore-child {
+    border: none !important;
+    border-radius: 0 !important;
+    width: 200px;
+    margin-top: 20px;
+  }
+  .explore .explore-child {
+    display: flex;
+    justify-content: center;
+    width: 300px;
+    height: 56px;
+  }
+  .explore-body p {
+    font-size: 14px;
+  }
+  
+  .explore-body h1 {
+    font-size: 18px;
+    transition: 0.4s;
+  }
+  .explore-body h1:hover {
+    color: #0a65cc;
+    text-decoration: underline;
+  }

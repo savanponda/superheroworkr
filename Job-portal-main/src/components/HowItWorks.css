@@ -1,0 +1,273 @@
+.how-it-works {
+    display: flex;
+    flex-wrap: wrap;
+  
+    margin-left: 160px;
+    margin-top: 50px;
+    width: 1215px;
+    height: 224px;
+    background-color: white;
+  }
+  .how-it-works .child {
+    width: 280px;
+    height: 224px;
+    border: 2px red solid;
+  }
+  
+  .banner3 {
+    margin-top: 100px;
+  }
+  .banner3 h2 {
+    margin: 0 auto 0 auto;
+    max-width: calc(100% - 380px);
+    font-size: 40px;
+  }
+  .banner3 .d-flex {
+    margin: 0 auto 0 auto;
+    max-width: calc(100% - 320px);
+    gap: 20px;
+    height: 90px !important;
+  }
+  .explore-child {
+    border: none !important;
+    border-radius: 0 !important;
+    width: 200px;
+    margin-top: 20px;
+  }
+  .explore .explore-child {
+    display: flex;
+    justify-content: center;
+    width: 300px;
+    height: 56px;
+  }
+  .explore-body p {
+    font-size: 14px;
+  }
+  
+  .explore-body h1 {
+    font-size: 18px;
+    transition: 0.4s;
+  }
+  .explore-body h1:hover {
+    color: #0a65cc;
+    text-decoration: underline;
+  }
+  /* .row-box{
+      border:red solid 2px;
+      z-index: 100;
+      margin-top: 100px;
+      background-color: #F1F2F4;
+      height: 522px;
+      
+  } */
+  .banner4 {
+    margin-top: 100px;
+    background-color: #f1f2f4;
+    height: 522px;
+    margin-bottom: 0;
+  }
+  
+  .heading {
+    margin: 100px auto 0 auto;
+    max-width: calc(100% - 320px);
+    position: relative;
+    top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+  }
+  .heading h2 {
+    text-align: center;
+    font-size: 40px;
+    font-weight: 500;
+  }
+  .col-lg h2 {
+    font-size: 40px;
+    text-align: center;
+  }
+  .banner4 .col-lg {
+    display: flex;
+    justify-content: space-between;
+    margin: 100px auto 0 auto;
+    max-width: calc(100% - 320px);
+  }
+  .banner4 .col-sm-4 {
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 224px;
+    transition: 0.4s;
+  }
+  .banner4 .col-sm-4 .content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .banner4 .col-sm-4 h1 {
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 15px;
+  }
+  .banner4 .col-sm-4 p {
+    color: #767f8c;
+    font-size: 14px;
+    margin-top: 15px;
+    text-align: center;
+  }
+  .banner4 .circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    width: 72px;
+    height: 72px;
+    border-radius: 100%;
+    transition: 0.4s;
+  }
+  .circle .user {
+    width: 32px;
+    height: 32px;
+    color: #0a65cc;
+    transition: 0.4s;
+  }
+  .banner4 .col-sm-4:hover {
+    background-color: white;
+  }
+  .banner4 .col-sm-4:hover .circle {
+    background-color: #0a65cc;
+  }
+  .banner4 .col-sm-4:hover .circle .user {
+    color: white;
+  }
+  .banner4-2 {
+    margin-top: -220px;
+    background-color: #f1f2f4;
+    height: 522px;
+  }
+  
+  .banner4-2 .col-lg {
+    display: flex;
+    justify-content: space-between;
+    margin: 100px auto 0 auto;
+    max-width: calc(100% - 320px);
+  }
+  .banner4-2 .col-sm-4 {
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 224px;
+    transition: 0.4s;
+  }
+  .banner4-2 .col-sm-4 .content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .banner4-2 .col-sm-4 h1 {
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 15px;
+  }
+  .banner4-2 .col-sm-4 p {
+    color: #767f8c;
+    font-size: 14px;
+    margin-top: 15px;
+    text-align: center;
+  }
+  .banner4-2 .circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    width: 72px;
+    height: 72px;
+    border-radius: 100%;
+    transition: 0.4s;
+  }
+  
+  .banner4-2 .col-sm-4:hover {
+    background-color: white;
+  }
+  .banner4-2 .col-sm-4:hover .circle {
+    background-color: #0a65cc;
+  }
+  .banner4-2 .col-sm-4:hover .circle .user {
+    color: white;
+  }
+  
+   /* .arrow1-2 {
+    position: relative;
+    top: 130px;
+    left: 365px;
+    width: 225px;
+    height: 40px;
+  }
+  .arrow2-2 {
+    position: relative;
+    transform: rotateX(180deg);
+    top: 130px;
+    left: 670px;
+    width: 225px;
+    height: 40px;
+  }
+  .arrow3-2 {
+    position:relative;
+    top: 50px;
+    left: 1100px;
+    width: 225px;
+    height: 40px;
+  } */
+  
+  .arr{
+    position: relative;
+    top: 320px;
+    left:360px;
+    display: flex;
+    gap: 90px;
+  }
+  .arr .arrow2{
+    position: relative;
+    top:40px;
+  }
+  .arr1{
+    position: relative;
+    top: 100px;
+    left:350px;
+    display: flex;
+    gap: 90px;
+  }
+  .arr1 .arrow2-2{
+    position: relative;
+    top:60px;
+  }
+  /* .arrow1 {
+    position: relative;
+    top: 390px;
+    left: 380px;
+    width: 225px;
+    height: 40px;
+  }
+  .arrow2 {
+    position: relative;
+    transform: rotateX(180deg);
+    top: 390px;
+    left: 740px;
+    width: 225px;
+    height: 40px;
+  }
+  .arrow3 {
+    position: relative;
+    top: 320px;
+    left: 1100px;
+    width: 225px;
+    height: 40px;
+  } */

@@ -1,0 +1,115 @@
+.banner7 {
+    margin-top: -220px;
+    background-color: #f1f2f4;
+    height: 950px;
+  }
+  .banner7 .col-lg{
+    margin: 100px auto 0 auto;
+    max-width: calc(100% - 320px);
+    height: 450px;
+  }
+  .banner7 .col-lg .row {
+    
+    position: relative;
+    top: 200px;
+    height: 48px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+  }
+  .banner7 .col-lg .row .bt1{
+    height: 48px;
+    width: 48px;
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    border: solid 1px #0A65CC;
+    border-radius: 5px;
+    
+  }
+  .banner7 .col-lg .row .bt1 button{
+    color: #0A65CC;
+    
+  }
+  .banner7 .container {
+    margin: 0 auto 0 auto;
+    max-width: calc(100% - 320px);
+    height: 350px;
+    width: 1100px ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+  }
+  .banner7 .col-sm-4 {
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 350px;
+    height: 100%;
+    transition: 0.4s;
+    background-color: white;
+  }
+  .banner7 .col-sm-4 .content {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+  }
+  .banner7 .col-sm-4 h1 {
+    display: flex;
+    gap: 5px;
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 15px;
+    color: #FFAA00;
+  }
+  .banner7 .col-sm-4 p {
+    color: #767f8c;
+    font-size: 16px;
+    margin-top: 15px;
+    text-align: start;
+  }
+  .banner7 .col-sm-4 .profile{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 300px;
+    height: 48px;
+  }
+  .banner7 .col-sm-4 .profile .quotes {
+    display: flex;
+    width:48px ;
+    height:48px ;
+  }
+  .banner7 .col-sm-4 .profile .quotes h1{
+    margin-top: 8px;
+    color:  #DADDE5;
+    text-align: center;
+    font-size: 36px;
+  }
+  .banner7 .col-sm-4 .profile .text h1{
+    color: black;
+    font-size: 16px;
+  }
+  .banner7 .col-sm-4 .profile .text p{
+    margin-top: 4px;
+    font-size: 14px;
+  }
+  .banner7 .col-sm-4 .profile .prof{
+    margin-top: -10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    width: 160px;
+  }
+  .banner7 .col-sm-4 .profile .prof > h1{
+    color: black;
+    font-size: 36px;
+  }

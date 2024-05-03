@@ -1,0 +1,22 @@
+.container{
+  margin: 0 160px;
+}
+.bg-body{
+    background-color: #F1F2F4 !important;
+}
+
+ .link{
+  text-decoration: none !important;
+  transition:  .1s !important;
+ 
+}
+.link:hover{
+  color: #0A65CC !important;
+  border-bottom: #0A65CC 2px solid !important;
+}
+  
+ 
+  
+  
+ 
+  
